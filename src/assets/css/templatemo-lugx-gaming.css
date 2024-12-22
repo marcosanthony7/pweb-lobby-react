@@ -114,6 +114,7 @@ img {
 Global Styles
 --------------------------------------------- 
 */
+
 html,
 body {
   font-family: 'Poppins', sans-serif;
@@ -174,6 +175,77 @@ body {
 .main-button a:hover {
   background-color: #0071f8;
   color: #fff;
+}
+
+.login-section {
+  padding: 120px 0;
+  background-color: #f9f9f9;
+}
+
+.form-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h4 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.form-group .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.form-group .form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.text-center a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
 }
 
 /* 
@@ -275,8 +347,6 @@ Pre-loader Style
   background: #0071f8;
   border-radius: 50%;
 }
-
-
 
 /* 
 ---------------------------------------------
@@ -769,8 +839,6 @@ Banner Style
   line-height: 100px;
 }
 
-
-
 /* 
 ---------------------------------------------
 Services Style
@@ -809,8 +877,6 @@ Services Style
 .features .item:hover .image {
   background-color: #ee626b;
 }
-
-
 
 /* 
 ---------------------------------------------
@@ -899,7 +965,6 @@ Trending Style
   background-color: #0071f8;
 }
 
-
 /* 
 ---------------------------------------------
 Most Played Style
@@ -974,7 +1039,6 @@ Most Played Style
 .most-played .item:hover .down-content a {
   background-color: #0071f8;
 }
-
 
 /* 
 ---------------------------------------------
@@ -1104,7 +1168,6 @@ CTA Style
   background-color: #0071f8;
 }
 
-
 /* 
 ---------------------------------------------
 Footer Style
@@ -1140,7 +1203,6 @@ footer p a:hover {
   opacity: 0.75;
 }
 
-
 /* 
 ---------------------------------------------
 Page Header Style
@@ -1175,7 +1237,6 @@ Page Header Style
   position: relative;
   margin-bottom: 20px;
 }
-
 
 /* 
 ---------------------------------------------
@@ -1327,7 +1388,6 @@ Shop Page Style
   background-color: #0071f8;
   color: #fff;
 }
-
 
 /* 
 ---------------------------------------------

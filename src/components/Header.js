@@ -19,11 +19,11 @@ const Header = () => {
                                 <li><Link to="/grupos">Grupos</Link></li>
                                 <li><Link to="/detalhes-grupos">Detalhes Grupos</Link></li>
                                 <li><Link to="/contato">Contato</Link></li>
-                                <li><Link to="#">Login</Link></li>
+                                <li><Link to="/login">Login</Link></li>
                             </ul>
-                            <a className="menu-trigger">
+                            <button className="menu-trigger" aria-label="Abrir menu">
                                 <span>Menu</span>
-                            </a>
+                            </button>
                         </nav>
                     </div>
                 </div>

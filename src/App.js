@@ -8,6 +8,7 @@ import DetalhesComunidades from "./components/DetalhesComunidades";
 import Grupos from "./components/Grupos";
 import DetalhesGrupos from "./components/DetalhesGrupos";
 import Contato from "./components/Contato";
+import Login from "./components/Login";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/grupos" element={<Grupos />} />
         <Route path="/detalhes-grupos" element={<DetalhesGrupos />} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </Router>
