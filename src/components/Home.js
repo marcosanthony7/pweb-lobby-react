@@ -4,7 +4,6 @@ import "../assets/css/templatemo-lugx-gaming.css";
 import "../assets/css/owl.css";
 import "../assets/css/animate.css";
 import ComunidadeService from "../services/ComunidadeService";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   const comunidades = ComunidadeService.getComunidades();
@@ -76,7 +75,7 @@ const Home = () => {
             </div>
             <div className="col-lg-6">
               <div className="main-button">
-                <Link to="/comunidades">Ver Todas</Link>
+                <a href="/comunidades">Ver Todas</a>
               </div>
             </div>
             {comunidades.map((comunidade, index) => (
@@ -86,14 +85,14 @@ const Home = () => {
               >
                 <div className="item">
                   <div className="thumb">
-                    <Link to="/detalhes-comunidades">
+                    <a href="/detalhes-comunidades">
                       <img src={comunidade.img} alt="" />
-                    </Link>
+                    </a>
                   </div>
                   <div className="down-content">
                     <span className="category">{comunidade.participantes}</span>
                     <h4>{comunidade.nome}</h4>
-                    <Link to="/detalhes-comunidades">Seguir</Link>
+                    <a href="/detalhes-comunidades">Seguir</a>
                   </div>
                 </div>
               </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import topGame01 from "../assets/images/top-game-01.png";
 import topGame02 from "../assets/images/top-game-02.png";
 import topGame03 from "../assets/images/top-game-03.jpg";
@@ -16,7 +15,7 @@ const Comunidades = () => {
                         <div className="col-lg-12">
                             <h3>Comunidades</h3>
                             <span className="breadcrumb">
-                                <a href="#">Home</a> / Comunidades
+                                <a href="/">Home</a> / Comunidades
                             </span>
                         </div>
                     </div>
@@ -35,9 +34,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items adv">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame01} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">5.000.000 de participantes</span>
@@ -48,9 +47,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items str">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame02} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">4.000.000 de participantes</span>
@@ -61,9 +60,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items adv rac">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame03} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">3.000.000 de participantes</span>
@@ -74,9 +73,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items str">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame04} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">2.000.000 de participantes</span>
@@ -87,9 +86,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items rac str">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame05} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">1.000.000 de participantes</span>
@@ -100,9 +99,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items rac adv">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame06} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">500.000 de participantes</span>
@@ -113,9 +112,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items rac str">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame01} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">5.000.000 de participantes</span>
@@ -126,9 +125,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items rac adv">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame02} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">4.000.000 de participantes</span>
@@ -139,9 +138,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items adv rac">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame03} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">3.000.000 de participantes</span>
@@ -152,9 +151,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items str">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame04} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">2.000.000 de participantes</span>
@@ -165,9 +164,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items adv">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame05} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">1.000.000 de participantes</span>
@@ -178,9 +177,9 @@ const Comunidades = () => {
                         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items str">
                             <div className="item">
                                 <div className="thumb">
-                                    <Link to="/detalhes-comunidades">
+                                    <a href="/detalhes-comunidades">
                                         <img src={topGame06} alt="" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="down-content">
                                     <span className="category">500.000 de participantes</span>

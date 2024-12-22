@@ -10,7 +10,7 @@ const DetalhesComunidades = () => {
                         <div className="col-lg-12">
                             <h3>League Of Legends</h3>
                             <span className="breadcrumb">
-                                <a href="#">Home</a> / <a href="#">Comunidades</a> / League Of Legends
+                                <a href="/">Home</a> / <a href="/comunidades">Comunidades</a> / League Of Legends
                             </span>
                         </div>
                     </div>
